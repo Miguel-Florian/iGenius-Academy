@@ -11,17 +11,7 @@
 </head>
 <body>
     <header>
-        <nav id="nav">
-            <div class="logo"><img src="./images/4926342.png" alt=""></div>
-                <div class="nav-link">
-                    <ul>
-                        <li class="link"><a href="#">Accueil</a></li>
-                        <li class="link"><a href="#">iGenius</a></li>
-                        <li class="link"><a href="#">Connexion</a></li>
-                        <li class="link"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-        </nav>
+        <?php include"./includes/nav.php"; ?>
         <div class="banner">
             <img src="./images/unnamed (2).jpg" alt=""class="slider">
         </div>
@@ -70,43 +60,15 @@
         <div class="newsletter">
             <div class="form">
                 <p class="newsletter-title-form">Souscrire à notre newsletters </p>
-                <form action="">
-                    <div class="input">
-                        <input type="email" name="" id="" placeholder="adresse@gmail.com">
-                        <input type="submit" value="Envoyer">
-                    </div>
-                </form>
+                <?php include "./includes/newsletter.php";?>
             </div>
         </div>
         <div class="footer">
-            <footer>
-                <div class="recap">
-                    <p><span>iGenius</span> est une université catholique situé à Douala depuis plus de 25 ans aujoud'hui. <br> Pour plus d'information, veuillez nous contacté.
-                        <br>Contact: 237 256 452 563 / 237 454 541 064
-                    </p>
-                </div>
-                <div class="footer-nav-link">
-                    <ul>
-                        <li class="link"><a href="#">Accueil</a></li>
-                        <li class="link"><a href="#">iGenius</a></li>
-                        <li class="link"><a href="#">Connexion</a></li>
-                        <li class="link"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="social-link">
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-                        <li>Gmail</li>
-                    </ul>
-                </div>
-            </footer>
+            <?php include "./includes/footer.php";?>
         </div>
     </div>
 
-<script>
+    <script>
     var n = 95; // Nombre final du compteur
     var cpt = 0; // Initialisation du compteur
     var duree = 2; // Durée en seconde pendant laquel le compteur ira de 0 à 15
@@ -120,7 +82,6 @@
     }
     }
      setTimeout(countdown, delta);
-
-</script>
+    </script>
 </body>
 </html>
