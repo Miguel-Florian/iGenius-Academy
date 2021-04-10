@@ -1,0 +1,80 @@
+body{
+    background:url("../images/tof6-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form{
+    max-width: 480px;
+    margin:auto;
+    margin-top:10%;
+    background-color: rgba(238, 232, 232);
+    opacity: 0.9;
+    text-align:center;
+    border-radius:12px;
+    box-sizing: border-box;
+    border:0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:12px;
+    height: 70vh;
+ 
+}
+form{
+    
+    width: 30vw;
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-group{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:12%;
+}
+input[type="email"],input[type="password"]{
+    padding-left:1em;
+    width: 20vw;
+    height: 50px;
+    border-radius: 14px;
+    outline: none;
+    border:0px;
+    margin-left:2%;
+}
+input[type="submit"]{
+    width: 180px;
+    height: 50px;
+    border-radius: 14px;
+    border:1px solid rgb(212, 209, 209);
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:blueviolet;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+   color: rgb(0, 255, 85);
+    background-color: rgb(113, 112, 182);
+}
+a{
+     display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color:rgba(4, 81, 248, 0.822);
+
+
+}
+i{
+    color:rgba(4, 81, 248, 0.822);
+}
