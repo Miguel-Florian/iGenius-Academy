@@ -2,7 +2,8 @@ body{
     background:url("../images/tof6-01.png");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    font-family: Helvetica;
+    font-size: 20px;
 }
 .form{
     max-width: 480px;

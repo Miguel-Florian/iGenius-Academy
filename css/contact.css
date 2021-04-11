@@ -1,0 +1,119 @@
+body{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.logo{
+    float:left;
+}
+#nav {
+    height: 18vh;
+	padding: 0; margin-right: 20px;
+	text-align: right;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+     padding-top: 2%;
+	display:inline-block;
+	margin: 0 30px;
+    text-decoration: none;
+    color:blue;
+}
+h4{
+  text-align: center;
+}
+.container{
+    margin:0 auto;
+       display: inline-flex;
+    flex-direction:row ;
+}
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+form{
+    border:1px solid black;
+    width: 40vw;
+}
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: blue;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style input[type=reset]:hover{
+    background-color: #D8000C;
+
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+.content{
+    border:1px solid black;
+    width: 50vw;
+    padding:20px;
+    margin-left: 2%;
+}
