@@ -1,0 +1,58 @@
+body{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.logo{
+    float:left;
+}
+#nav {
+    height: 18vh;
+	padding: 0; margin-right: 20px;
+	text-align: right;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+     padding-top: 2%;
+	display:inline-block;
+	margin: 0 30px;
+  text-decoration: none;
+  color:blue;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1.8fr 5fr;
+    border:1px solid black;
+    margin:2% auto;
+    height: auto;
+    width: 90vw;
+}
+aside{
+    border:1px solid green;
+    height: 34vh;
+    margin:20% auto;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+ul li {
+    list-style: none;
+    margin-top:10%;
+    
+}
+ul li a{
+    text-decoration: none;
+     margin-top:0%;
+   
+}
+.content{
+    border:1px solid violet;
+    width: 60vw;
+    margin:2% auto;
+    padding: 20px;
+    text-align: justify;
+    height:auto;
+}
