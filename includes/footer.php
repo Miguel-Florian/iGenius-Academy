@@ -1,7 +1,7 @@
 <footer>
                 <div class="recap">
                     <p><span>iGenius</span> est une université catholique situé à Douala depuis plus de 25 ans aujoud'hui. <br> Pour plus d'information, veuillez nous contacté.
-                        <br>Contact: 237 256 452 563 / 237 454 541 064
+                        <br>Contact: +237 256 452 563 / +237 454 541 064
                     </p>
                 </div>
                 <div class="footer-nav-link">

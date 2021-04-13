@@ -13,6 +13,28 @@
         <?php include"./includes/nav.php"; ?>
     </header>
     <div class="container">
+       <div class="text">
+          <p><span>iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.</p>
+          <p>Nous sommes ouvrable selon les jours et les horaires suivants :
+             <ul>
+                <li>De <span>Lundi</span> à <span>Vendredi</span> de <span>07H</span> - <span>18H</span></li>
+                <li>De <span>Samedi</span> de <span>09H</span> - <span>15H</span></li>
+             </ul>
+          </p>
+          <p>En cas de besoin, veuillez contacter le service client ou la direction afin de repondre à vos besoins. 
+             <br><br><span>Téléphone : </span> +237 256 452 563 / +237 454 541 064
+          </p>
+          <p>Ou par ce formulaire de contact ci-contre et vous pouvez également nous suivre sur ces reseaux sociaux :</p>
+           <div class="social-link">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Gmail</li>
+                    </ul>
+                </div>
+       </div>
       <form name="" action="" onsubmit="return validateForm()" method="post">
         <h4>Formulaire de contact</h4>   
       <table class="form-style">
@@ -58,12 +80,6 @@
             </tr>
          </table>
       </form>
-      <div class="content">
-          <div class="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias possimus aperiam laborum officiis a cupiditate aliquid ut numquam doloribus rem, recusandae repellat sed veniam ducimus sequi quam optio maxime Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi saepe sed, rem enim nam corporis beatae explicabo sit ratione fugit quo nesciunt, culpa, dolor assumenda temporibus a delectus exercitationem vel? </p>
-          </div>
-          <div class="social-link"></div>
-      </div>
 </div>
 
       <script>

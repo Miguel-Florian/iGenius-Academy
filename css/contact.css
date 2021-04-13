@@ -18,16 +18,38 @@ body{
      padding-top: 2%;
 	display:inline-block;
 	margin: 0 30px;
-    text-decoration: none;
-    color:blue;
+  text-decoration: none;
+  color:blue;
+}
+.text{
+  /*border:1px solid black;*/
+  width: 40vw;
+  padding: 20px;
+  text-align: justify;
+}
+span{
+  font-weight: bold;
+  font-size: 18px;
 }
 h4{
   text-align: center;
 }
+.social-link{
+    width: 40vw;
+    padding:10px;
+    font-size: 18px;
+}
+.social-link ul li{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .container{
     margin:0 auto;
-       display: inline-flex;
-    flex-direction:row ;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
 }
 .form-style {
   margin:10px auto;
@@ -37,7 +59,7 @@ h4{
   font-size: 14px;
 }
 form{
-    border:1px solid black;
+    /*border:1px solid black;*/
     width: 40vw;
 }
 .form-style td {
@@ -67,6 +89,8 @@ form{
   font-weight: bold;
   font-size: 16px;
   border-radius: 12px;
+  margin-top: 10%;
+  
 }
 .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
   background: blue;
@@ -90,10 +114,6 @@ textarea{
   border:1px solid #BEBEBE;
   padding: 7px;
   margin:0px;
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
   outline: none;  
 }
 .form-style .long{
@@ -110,10 +130,4 @@ textarea{
 .error{
   color: #D8000C;
   background-color: #FFBABA;
-}
-.content{
-    border:1px solid black;
-    width: 50vw;
-    padding:20px;
-    margin-left: 2%;
 }
