@@ -1,8 +1,8 @@
 <footer>
                 <div class="recap">
-                    <p><span>iGenius</span> est une université catholique situé à Douala depuis plus de 25 ans aujoud'hui. <br> Pour plus d'information, veuillez nous contacté.
-                        <br>Contact: +237 256 452 563 / +237 454 541 064
-                    </p>
+                   <p><span>iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.                    
+                        <br> <span>Contact: +237 256 452 563 / +237 454 541 064</span>
+                   </p>
                 </div>
                 <div class="footer-nav-link">
                     <ul>

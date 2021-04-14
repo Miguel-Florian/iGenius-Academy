@@ -41,22 +41,22 @@
             <p class="before-stat">Voici nos statistiques durant l'année dernière selon les différents niveaux de formation !</p>
         
         <div class="stat">
-            <div class="group">
+            <div class="group bts">
                 <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>BTS</h3></p>
                 <p id="compteur">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+2.65%</b></p>
             </div>
-            <div class="group">
+            <div class="group licence">
                 <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Licence</h3></p>
                 <p id="compteur1">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-down"></i> Une baisse de: <b>- 0.12%</b></p>
             </div>
-            <div class="group">
+            <div class="group master1">
                 <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Master I</h3></p>
                 <p id="compteur2">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+2.65%</b></p>
             </div>
-            <div class="group">
+            <div class="group master2">
                 <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Master II</h3></p>
                 <p id="compteur3">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+1.5%</b></p>
