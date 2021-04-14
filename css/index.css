@@ -14,18 +14,152 @@ body{
 	display: inline;
 	list-style: none;
 }
+#nav a:hover{
+    color:rgb(167, 13, 238);
+    border-bottom: 2px solid rgb(167, 13, 238);
+    border-width: 4px;
+    border-radius: 4px;
+}
 #nav a {
      padding-top: 2%;
 	display:inline-block;
 	margin: 0 30px;
     text-decoration: none;
-    color:blue;
+    color:rgb(13, 137, 238);
 }
 .banner{
     width: 90vw;
     height: 96vh;
-    margin:2% auto;
+    margin:1% auto;
 }
+.slider1,.slider2,.slider3{
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 12px;
+}
+.slider1{
+    background-image: url(../images/campus1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade1 30s infinite;
+}
+.slider2{
+    background-image: url(../images/campus222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade2 30s infinite;
+}
+.slider3{
+    background-image: url(../images/campus33.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade3 30s infinite;
+}/*
+.slider4{
+    background-image: url(../images/campus4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade4 5s infinite;
+    height: 100vh;
+}
+.slider5{
+    background-image: url(../images/campus5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade5 5s infinite;
+    height: 100vh;
+}.slider6{
+    background-image: url(../images/campus6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade6 5s infinite;
+    height: 100vh;
+}*/
+@keyframes fade1{
+    0%{
+        opacity:1;
+    }
+    25%{
+        opacity:0;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes fade2{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:1;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes fade3{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    75%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}/*
+@keyframes fade4{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    75%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes fade5{
+    0%{
+        opacity:1;
+    }
+    25%{
+        opacity:0;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes fade6{
+    0%{
+        opacity:1;
+    }
+    25%{
+        opacity:0;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}*/
 img[src="./images/unnamed (2).jpg"]{
     width: 90vw;
     height: auto;
@@ -64,7 +198,7 @@ img[src="./images/unnamed (2).jpg"]{
     margin-right: 2%;
     margin:0 auto;
 }
-h2,#compteur,#compteur1,#compteur2,#compteur3,.up{
+h3,#compteur,#compteur1,#compteur2,#compteur3,.up{
     text-align: center;
 }
 #compteur,#compteur1,#compteur2,#compteur3{

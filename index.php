@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <script src="./index.js"></script>
     <title>Document</title>
 </head>
@@ -13,7 +13,12 @@
     <header>
         <?php include"./includes/nav.php"; ?>
         <div class="banner">
-            <img src="./images/unnamed (2).jpg" alt=""class="slider">
+            <div class="slider1"></div>
+            <div class="slider2"></div>
+            <div class="slider3"></div>
+            <!--<div class="slider4"></div>
+            <div class="slider5"></div>
+            <div class="slider6"></div>-->
         </div>
     </header>
     <div class="article">
@@ -37,22 +42,22 @@
         
         <div class="stat">
             <div class="group">
-                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h2>BTS</h2></p>
+                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>BTS</h3></p>
                 <p id="compteur">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+2.65%</b></p>
             </div>
             <div class="group">
-                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h2>Licence</h2></p>
+                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Licence</h3></p>
                 <p id="compteur1">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-down"></i> Une baisse de: <b>- 0.12%</b></p>
             </div>
             <div class="group">
-                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h2>Master I</h2></p>
+                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Master I</h3></p>
                 <p id="compteur2">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+2.65%</b></p>
             </div>
             <div class="group">
-                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h2>Master II</h2></p>
+                <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>Master II</h3></p>
                 <p id="compteur3">0%</p>
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+1.5%</b></p>
             </div>
