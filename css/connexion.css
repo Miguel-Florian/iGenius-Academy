@@ -1,5 +1,5 @@
 body{
-    background:url("../images/tof6-01.png");
+    background:url("../images/etudiant1.png");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Helvetica;
@@ -63,6 +63,12 @@ input[type="submit"]{
 input[type="submit"]:hover{
    color: rgb(0, 255, 85);
     background-color: rgb(113, 112, 182);
+}
+input[type="password"]:focus,input[type="email"]:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 2px solid #88D5E9;
 }
 a{
      display: inline-flex;

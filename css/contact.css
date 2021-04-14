@@ -14,12 +14,18 @@ body{
 	display: inline;
 	list-style: none;
 }
+#nav a:hover{
+    color:rgb(167, 13, 238);
+    border-bottom: 2px solid rgb(167, 13, 238);
+    border-width: 4px;
+    border-radius: 4px;
+}
 #nav a {
      padding-top: 2%;
 	display:inline-block;
 	margin: 0 30px;
-  text-decoration: none;
-  color:blue;
+    text-decoration: none;
+    color:rgb(13, 137, 238);
 }
 .text{
   /*border:1px solid black;*/
@@ -40,10 +46,46 @@ h4{
     font-size: 18px;
 }
 .social-link ul li{
-    display:inline-flex;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:0px solid rgb(90, 88, 88);
+    list-style: none;
+}
+.facebook{
+    background-color:white;
+    color:rgb(32, 35, 235);
+}
+.twitter{
+    background-color:white;
+    color:#02b7ff;
+}
+.linkedin{
+    background-color:#0E76A8;
+    color:white;
+}
+.github{
+    background-color:white;
+    color:#171515;
+}
+.youtube{
+    background-color:#C4302B;
+    color:white;
+}.instagram{
+    background:#ee1717;
+    color:white;
+}
+ul .link a {
+    text-decoration: none;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color:rgb(13, 137, 238);
 }
 .container{
     margin:0 auto;

@@ -27,11 +27,13 @@
           <p>Ou par ce formulaire de contact ci-contre et vous pouvez également nous suivre sur ces reseaux sociaux :</p>
            <div class="social-link">
                     <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-                        <li>Gmail</li>
+                        <li class="facebook"><i class="lab la-facebook-f la-2x"></i></li>
+                        <li class="instagram"><i class="lab la-instagram la-2x"></i></li>
+                        <li class="twitter"><i class="lab la-twitter la-2x"></i></li>
+                        <li class="linkedin"><i class="lab la-linkedin-in la-2x"></i></li>
+                        <li class="github"><i class="lab la-github la-2x"></i></li>
+                        <li class="youtube"><i class="lab la-youtube la-2x"></i></li>
+                       
                     </ul>
                 </div>
        </div>

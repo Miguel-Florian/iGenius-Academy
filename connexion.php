@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="back">
-        <a href="#"><i class="las la-arrow-circle-left la-2x" ></i>Revenir à l'accueil</a>
+        <a href="./index.php"><i class="las la-arrow-circle-left la-2x" ></i>Revenir à l'accueil</a>
     </div>
     <div class="form">
         <h2>Veuillez bien renseigner vos accès !</h2>
