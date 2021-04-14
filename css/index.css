@@ -316,10 +316,72 @@ span{
     align-items: center;
     justify-content: center;
 }
-.footer-nav-link ul li,.social-link ul li{
+.footer-nav-link ul li{
     margin-top:10%;
     list-style: none;
 }
+.social-link ul li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:0px solid rgb(90, 88, 88);
+    list-style: none;
+}
+.facebook:hover{
+    background-color:white;
+    color:rgb(32, 35, 235);
+}
+.twitter:hover{
+    background-color:white;
+    color:#02b7ff;
+}
+.linkedin:hover{
+    background-color:#0E76A8;
+    color:white;
+}
+.github:hover{
+    background-color:white;
+    color:#171515;
+}
+.youtube:hover{
+    background-color:#C4302B;
+    color:white;
+}.instagram:hover{
+    background-color:#ee1717;
+    color:white;
+}
+
+/*.instagram{
+     width: 40px;
+    height: 40px;
+    background-image: url(../images/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.twitter{
+     width: 40px;
+    height: 40px;
+    background-image: url(../images/twitter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.linkedin{
+     width: 40px;
+    height: 40px;
+    background-image: url(../images/linkedin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.github{
+     width: 40px;
+    height: 40px;
+    background-image: url(../images/github.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.youtube{
+     width: 40px;
+    height: 40px;
+    background-image: url(../images/youtube.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
 ul .link a {
     text-decoration: none;
     display: flex;
