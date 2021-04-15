@@ -57,6 +57,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     animation: fade3 30s infinite;
+}
+span{
+  font-weight: bold;
+  font-size: 18px;
+}
+.message-text{
+    font-family:Helvetica;
+    font-weight: 500;
+}
+.span-color,.label-color,.h4-color{
+    color:rgb(167, 13, 238);
 }/*
 .slider4{
     background-image: url(../images/campus4.jpg);

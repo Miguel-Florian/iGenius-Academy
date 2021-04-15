@@ -16,15 +16,15 @@
     <div class="text-banner"><h5><?= $titre;?></h5></div>
     <div class="container">
        <div class="text">
-          <p><span>iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.</p>
+          <p><span class="span-color">iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.</p>
           <p>Nous sommes ouvrable selon les jours et les horaires suivants :
              <ul>
-                <li>De <span>Lundi</span> à <span>Vendredi</span> de <span>07H</span> - <span>18H</span></li>
-                <li>De <span>Samedi</span> de <span>09H</span> - <span>15H</span></li>
+                <li>De <span class="span-color">Lundi</span> à <span class="span-color">Vendredi</span> de <span class="span-color">07H</span> - <span class="span-color">18H</span></li>
+                <li>Le <span class="span-color">Samedi</span> de <span class="span-color">09H</span> - <span class="span-color">15H</span></li>
              </ul>
           </p>
           <p>En cas de besoin, veuillez contacter le service client ou la direction afin de repondre à vos besoins. 
-             <br><br><span>Téléphone : </span> +237 256 452 563 / +237 454 541 064
+             <br><br><span class="span-color">Téléphone :  +237 256 452 563 / +237 454 541 064</span>
           </p>
           <p>Ou par ce formulaire de contact ci-contre et vous pouvez également nous suivre sur ces reseaux sociaux :</p>
            <div class="social-link">
@@ -40,11 +40,12 @@
                 </div>
        </div>
       <form name="" action="" onsubmit="return validateForm()" method="post">
-        <h4>Formulaire de contact</h4>   
+        <h4 class="h4-color">Formulaire de contact</h4>   
+        <img src="./images/4926341.png" alt="iGenius">
       <table class="form-style">
             <tr>
                <td>
-                  <label>
+                  <label class="label-color">
                      Votre nom <span class="required">*</span>
                   </label>
                </td>
@@ -55,7 +56,7 @@
             </tr>
             <tr>
                <td>
-                  <label>
+                  <label class="label-color">
                      Votre adresse e-mail <span class="required">*</span>
                   </label>
                </td>
@@ -66,7 +67,7 @@
             </tr>
             <tr>
                <td>
-                  <label>
+                  <label class="label-color">
                      Message <span class="required">*</span>
                   </label>
                </td>

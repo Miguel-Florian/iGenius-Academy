@@ -39,6 +39,10 @@ body{
     align-content: center;  
     background-position: right;
 }
+h2{
+    text-align: center;
+    color:rgb(13, 137, 238);
+}
 h5{
   font-size:xx-large;
   color: rgb(167, 13, 238);
@@ -47,7 +51,7 @@ h5{
 .form{
     max-width: 480px;
     margin:auto;
-    margin-top:2%;
+    margin-top:0%;
     background-color: rgba(238, 232, 232);
     background:url("../images/etudiant1.png");
     background-size: cover;
@@ -60,7 +64,7 @@ h5{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:12px;
+    padding:0px;
     height: 70vh;
  
 }
@@ -68,7 +72,7 @@ form{
     
     width: 30vw;
     height: 60vh;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +83,7 @@ form{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top:12%;
+    margin-top:20%;
 }
 input[type="email"],input[type="password"]{
     padding-left:1em;
@@ -100,6 +104,9 @@ input[type="submit"]{
     font-weight: bold;
     color:blueviolet;
     cursor: pointer;
+}
+::placeholder{
+    font-weight: bold;
 }
 input[type="submit"]:hover{
    color: rgb(0, 255, 85);

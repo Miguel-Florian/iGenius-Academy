@@ -14,14 +14,14 @@
         <?php include"./includes/nav.php"; ?>
     </header>
     <div class="text-banner"><h5><?= $titre;?></h5></div>
+    <h2>Veuillez bien renseigner vos accès !</h2>
     <div class="form">
-        <h2>Veuillez bien renseigner vos accès !</h2>
         <form action=""method="">
             <div class="input-group">
                 <i class="las la-envelope la-2x"></i><input type="email" name="email" id="email" placeholder="Enter votre adresse email">
             </div>
             <div class="input-group">
-                <i class="las la-key la-2x"></i><input type="password" name="password" id="password" placeholder="Entrer votre mot de passe">
+                <i class="las la-key la-2x"></i><input type="password" name="password" id="password" placeholder="Entrer votre mot de passe (matricule)">
             </div>
             <div class="input-group">
                 <input type="submit" value="Se connecter">
