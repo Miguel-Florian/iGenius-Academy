@@ -47,19 +47,20 @@ h5{
 .container{
     display: grid;
     grid-template-columns: 1.8fr 5fr;
-    border:1px solid black;
+    /*border:1px solid black;*/
     margin:2% auto;
     height: auto;
     width: 90vw;
 }
 aside{
-    border:1px solid green;
+    /*border:1px solid green;*/
     height: 34vh;
-    margin:20% auto;
-    width: 20vw;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    margin:16% auto;
+    width: 18vw;
+    padding: 18px;
+    position: fixed;
+    right: 0;
+    top: 10%;
 }
 ul li {
     list-style: none;
@@ -75,10 +76,14 @@ ul li a{
    
 }
 .content{
-    border:1px solid violet;
+    /*border:1px solid violet;*/
     width: 60vw;
     margin:2% auto;
     padding: 20px;
     text-align: justify;
     height:auto;
+    background-color: rgba(248, 248, 248, 0.664);
+}
+h3{
+    color: rgb(167, 13, 238);
 }
