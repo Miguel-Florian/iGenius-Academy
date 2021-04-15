@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/about.css">
-    <title>Document</title>
+    <?php $titre="iGenius";?>
+    <title><?= $titre;?></title>
 </head>
 <body>
     <header>
         <?php include"./includes/nav.php"; ?>
     </header>
+    <div class="text-banner"><h5><?= $titre;?></h5></div>
     <div class="container">
         <aside>
             <ul>

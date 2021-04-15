@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./css/contact.css">
-    <title>Document</title>
+    <?php $titre="Contact";?>
+    <title><?= $titre;?></title>
 </head>
 <body>
     <header>
         <?php include"./includes/nav.php"; ?>
     </header>
+    <div class="text-banner"><h5><?= $titre;?></h5></div>
     <div class="container">
        <div class="text">
           <p><span>iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.</p>

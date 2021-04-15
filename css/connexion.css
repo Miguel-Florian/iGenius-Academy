@@ -1,16 +1,57 @@
 body{
-    background:url("../images/etudiant1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: Helvetica;
     font-size: 20px;
+}
+.logo{
+    float:left;
+}
+#nav {
+    height: 18vh;
+	padding: 0; margin-right: 20px;
+	text-align: right;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a:hover{
+    color:rgb(167, 13, 238);
+    border-bottom: 2px solid rgb(167, 13, 238);
+    border-width: 2px;
+    border-radius: 2px;
+}
+#nav a {
+     padding-top: 2%;
+	display:inline-block;
+	margin: 0 30px;
+    text-decoration: none;
+    color:rgb(13, 137, 238);
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-banner{
+  width:auto;
+  height:20vh;
+  background-image: url(../images/bkg-blu.jpg);
+  display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;  
+    background-position: right;
+}
+h5{
+  font-size:xx-large;
+  color: rgb(167, 13, 238);
+  margin-left:8%;
 }
 .form{
     max-width: 480px;
     margin:auto;
-    margin-top:10%;
+    margin-top:2%;
     background-color: rgba(238, 232, 232);
-    opacity: 0.9;
+    background:url("../images/etudiant1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align:center;
     border-radius:12px;
     box-sizing: border-box;
