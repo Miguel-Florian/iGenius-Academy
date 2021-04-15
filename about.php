@@ -16,13 +16,32 @@
     <div class="container">
         <aside>
             <ul>
-                <li><a href="#">Administration</a></li>
-                <li><a href="#">Différentes facultés</a></li>
-                <li><a href="#">Cerémonies et Prix</a></li>
-                <li><a href="#">Visite guidée</a></li>
+                <li><a href="#admin">Administration</a></li>
+                <li><a href="#fac">Différentes facultés</a></li>
+                <li><a href="#ceremony">Cerémonies et Prix</a></li>
+                <li><a href="#visite">Visite guidée</a></li>
             </ul>
         </aside>
-        <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur blanditiis, ea explicabo quis consequuntur iure nemo, labore harum laboriosam atque totam! Sed voluptatibus quasi ea ipsum sit ut nostrum reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, maiores labore. Eveniet ea voluptatum aspernatur. Voluptate, vel nisi ipsam, nostrum sapiente explicabo doloremque tenetur illo quidem, numquam ullam recusandae laudantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatem saepe quaerat sapiente! Ipsam qui, asperiores, deserunt eaque illo tempore eius libero debitis sed nemo atque iusto autem? Minima, molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil aperiam atque totam nulla earum, fuga temporibus. Veritatis, cupiditate dignissimos rerum fugiat alias illo nobis eaque magnam laudantium, nihil provident non?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta veritatis autem nisi unde, nihil quo officia, ea ab esse neque nostrum porro at doloribus amet praesentium optio quibusdam nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, mollitia aspernatur nisi quidem hic unde molestiae magnam quam eligendi aliquid tenetur placeat cum magni enim ad debitis saepe necessitatibus animi</div>
+        <div class="content">
+            <div id="admin">
+                <h3>Administation</h3><hr> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus.</p>
+                <p>Dr azzaza</p>
+            </div>
+            <div id="fac">
+                <h3>Differentes Facultés</h3><hr> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
+            </div>
+            <div id="ceremony">
+                <h3>Differentes Cérémonies et Prix</h3><hr> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
+            </div>
+            <div id="visite">
+                <h3>Présentation des diiferents bâtiment du campus</h3><hr> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>

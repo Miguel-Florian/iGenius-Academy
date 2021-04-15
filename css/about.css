@@ -69,6 +69,9 @@ ul li {
 ul li a{
     text-decoration: none;
      margin-top:0%;
+     color:rgb(13, 137, 238);
+    font-weight: bold;
+    font-size: 18px;
    
 }
 .content{
