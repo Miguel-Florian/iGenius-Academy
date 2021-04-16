@@ -1,4 +1,4 @@
-var li = document.querySelector("link");
+var li = document.getElementsByClassName("link");
 var Color = function () {
   li.classList.add("red");
 };

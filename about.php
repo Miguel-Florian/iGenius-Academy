@@ -43,5 +43,12 @@
 
         </div>
     </div>
+    <script>
+        var li = document.getElementsByClassName("link");
+        var Color = function () {
+          link.setAttribute("style", "color:green"); 
+        };
+        link.addEventListener("focus", Color());
+    </script>
 </body>
 </html>
