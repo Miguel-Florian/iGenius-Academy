@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <?php $titre="Accueil";?>
     <title><?php echo $titre; ?></title>
 </head>
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <script>
+    <script type="text/javascript">
     var n = 95; // Nombre final du compteur
     var cpt = 0; // Initialisation du compteur
     var duree = 2; // Durée en seconde pendant laquel le compteur ira de 0 à 15
