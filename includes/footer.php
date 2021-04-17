@@ -1,7 +1,7 @@
 <footer>
                 <div class="recap">
                    <p><span>iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.                    
-                        <br> <span>Contact: +237 256 452 563 / +237 454 541 064</span>
+                        <br> <br> <span>Contact: +237 256 452 563 / +237 454 541 064</span>
                    </p>
                 </div>
                 <div class="footer-nav-link">

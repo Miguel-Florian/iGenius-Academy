@@ -14,12 +14,12 @@ body{
 	display: inline;
 	list-style: none;
 }
-#nav li.active a
+#nav li a:active
 {
     color:rgb(167, 13, 238);
     font-size: 20px;
 }
-#nav li.active a:hover{
+#nav li a:hover{
     border-bottom: 0px solid rgb(167, 13, 238);
     border-width: none;
 }

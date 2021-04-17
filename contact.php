@@ -11,7 +11,10 @@
 </head>
 <body>
     <header>
-        <?php include"./includes/nav.php"; ?>
+        <?php 
+         $active="contact";
+         include"./includes/nav.php";
+         ?>
     </header>
     <div class="text-banner"><h5><?= $titre;?></h5></div>
     <div class="container">

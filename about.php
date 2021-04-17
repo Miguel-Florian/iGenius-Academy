@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-        <?php include"./includes/nav.php";?>
+        <?php 
+         $active="about";
+         include"./includes/nav.php";
+         ?>
     </header>
     <div class="text-banner"><h5><?= $titre;?></h5></div>
     <div class="container">
@@ -40,8 +43,16 @@
                 <h3>Présentation des diiferents bâtiment du campus</h3><hr> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
             </div><hr>
-
         </div>
     </div>
+    <script type="text/javascript">
+    
+    window.onload=function{
+        document.getElementById("about").addClass('active');
+    }
+        
+        /*document.querySelector('input');
+        document.querySelector('input').value();*/
+    </script>
 </body>
 </html>

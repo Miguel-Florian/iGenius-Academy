@@ -12,7 +12,10 @@
 </head>
 <body>
     <header>
-       <?php include"./includes/nav.php"; ?>
+      <?php 
+         $active="index";
+         include"./includes/nav.php";
+         ?>
         <div class="banner">
             <div class="slider1"></div>
             <div class="slider2"></div>
