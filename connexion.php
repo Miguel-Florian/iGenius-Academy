@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./css/connexion.css">
+    <script src="./index.js"></script>
     <?php $titre="Connexion";?>
     <title><?= $titre;?></title>
 </head>
 <body>
     <header>
-        <?php 
-         $active="connexion";
-         include"./includes/nav.php";
-         ?>
+        <?php include"./includes/nav.php";?>
     </header>
     <div class="text-banner"><h5><?= $titre;?></h5></div>
     <h2>Veuillez bien renseigner vos accès !</h2>

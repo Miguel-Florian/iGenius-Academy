@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./index.js"></script>
     <?php $titre="Accueil";?>
     <title><?php echo $titre; ?></title>
 </head>
 <body>
     <header>
-      <?php 
-         $active="index";
-         include"./includes/nav.php";
-         ?>
+      <?php include"./includes/nav.php";?>
         <div class="banner">
             <div class="slider1"></div>
             <div class="slider2"></div>
@@ -77,6 +74,8 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
     <script type="text/javascript">
     var n = 95; // Nombre final du compteur
     var cpt = 0; // Initialisation du compteur
@@ -91,6 +90,10 @@
     }
     }
      setTimeout(countdown, delta);
+
+     /*$(document).on('click','ul li',function(){
+        $(this).addClass('active')
+    })*/
     </script>
 </body>
 </html>
