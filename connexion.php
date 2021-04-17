@@ -1,3 +1,4 @@
+<?php include"./config/db.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +18,7 @@
     <div class="text-banner"><h5><?= $titre;?></h5></div>
     <h2>Veuillez bien renseigner vos accès !</h2>
     <div class="form">
-        <form action=""method="">
+        <form action="connexion.php"method="POST">
             <div class="input-group">
                 <i class="las la-envelope la-2x"></i><input type="email" name="email" id="email" placeholder="Enter votre adresse email">
             </div>
