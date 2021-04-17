@@ -8,8 +8,4 @@ foreach($db as $key => $value){
     define(strtoupper($key),$value);
 }
 $connexion = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-if($connexion){
-     echo("<h6><b>we are connected</b></h6>");
-}
-
 ?>
