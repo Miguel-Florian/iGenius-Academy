@@ -6,10 +6,10 @@ if(isset($_POST['submit'])){
    $pass=htmlentities(trim($_POST['password']));
    
    if($_POST['statut']=="etudiant"){
-       include "./eleve-recup.php";
+      include "./includes/eleve-recup.php";
    }
    else if ($_POST['statut']=="professeur"){
-       include "./prof-recup.php";
+       include "./includes/prof-recup.php";
    }else{
        header("Location:index.php");
    }
