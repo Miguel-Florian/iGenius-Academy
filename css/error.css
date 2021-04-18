@@ -1,0 +1,48 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.database-failed{
+    text-align: center;
+}
+h2,h1{
+    font-family: Helvetica;
+}
+h1{
+    color:rgb(66, 94, 218);
+}
+h2{
+    color:rgb(8, 129, 241)
+}
+.link{
+    display: inline;
+    margin:0 auto;
+    border: 0px solid black;
+    background-color: rgb(66, 94, 218);
+    width: 20vw;
+    height: 18vh;
+    padding:12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+.link:hover{
+    background-color: rgb(8, 129, 241);
+}
+a:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    /*color:rgb(8, 129, 241);*/
+}

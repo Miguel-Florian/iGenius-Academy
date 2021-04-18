@@ -24,6 +24,11 @@
             <div class="input-group">
                 <i class="las la-key la-2x"></i><input type="password" name="password" id="password" placeholder="Entrer votre mot de passe (matricule)">
             </div>
+            <!--<div class="input-group">
+                <span class="span-color">Vous connectez en tant que :</span>&ensp;
+                <input type="radio" name="statut" id="etudiant" value="etudiant"><label id="et">Etudiant</label>&ensp;
+                <input type="radio" name="statut" id="professeur" value="professeur"><label id="pr">Professeur</label>
+            </div>-->
             <div class="input-group">
                 <input type="submit" name="submit" value="Se connecter">
             </div>
