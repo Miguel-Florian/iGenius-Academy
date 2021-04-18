@@ -18,7 +18,7 @@
                     <a href="" class="active"><span class="las la-igloo"></span><span>Dashboard</span></a>
                  </li>
                  <li>
-                    <a href=""><span class="lar la-clipboard"></class=></span><span>Consulter les notes</span></a>
+                    <a href=""><span class="lar la-clipboard"></span><span>Consulter les notes</span></a>
                  </li>
                  <li>
                     <a href=""><span class="las la-book-open"></span><span>Consulter les cours</span></a>
