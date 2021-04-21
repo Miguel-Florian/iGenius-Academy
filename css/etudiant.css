@@ -43,14 +43,13 @@
     color:#fff;
     font-size:1.1rem;
 }
-.sidebar-menu a.active{
+/*.sidebar-menu a.active{
     background-color: white;
     padding-top:1rem ;
     padding-bottom: 1rem;
     color:var(--main-color);
     border-radius: 30px 0px 0px 30px;
-
-}
+}*/
 .sidebar-menu a span:first-child{
     font-size: 1.5 rem;
     padding-right: 1rem;
@@ -133,7 +132,7 @@ main{
     display: flex;
     justify-content: space-between;
     background: #ffff;
-    border-radius:2px;
+    border-radius:5px;
     padding: 2rem;
     width:16vw;
 }
@@ -151,4 +150,33 @@ main{
 .card-single:last-child div:last-child span,
 .card-single:last-child div:first-child span{
     color:#fff;
+}
+/*recently*/
+.contenu{
+    width: 74%;
+    height:60%;
+    position: absolute;
+    border:1px solid black;
+    margin-top: 2%;
+    opacity: 0;
+}
+/*anim*/
+.active{
+    background-color:#c2c9d1;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    border-radius: 30px 0px 0px 30px;
+    transition: all 0.3s ease;
+    transition-duration: 30s;
+}
+.activeContenu{
+    animation: fade 0.5s forwards;
+}
+@keyframes fade{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
 }
