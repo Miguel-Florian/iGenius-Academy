@@ -154,9 +154,9 @@ main{
 /*recently*/
 .contenu{
     width: 74%;
-    height:60%;
+    height:50%;
     position: absolute;
-    border:1px solid black;
+    /*border:1px solid black;*/
     margin-top: 2%;
     opacity: 0;
 }
@@ -192,9 +192,9 @@ main{
     align-items: center;
     justify-content: center;
     margin: 2% auto;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     width: 60vw;
-    height: 50vh;
+    height: 40vh;
     padding: 20px;
 }
 .setting-gauche label,.setting-droit label{
