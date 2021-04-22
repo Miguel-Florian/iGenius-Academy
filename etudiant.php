@@ -107,6 +107,18 @@
             </div>
             <div class="contenu" data-anim="5">
                 <h2>Settings</h2>
+                <div class="settings">
+                    <div class="setting-droit">
+                        <label for="nom">Nom :</label><span class="set">&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Miguel</span><br>
+                        <label for="prenom">Prenom :</label><span class="set">&emsp;&emsp;&emsp;&emsp;Florian</span><br>
+                        <label for="matricule">Matricule :</label><span class="set">&emsp;&emsp;&emsp;&nbsp;170421</span><br>
+                    </div>
+                    <div class="setting-gauche">
+                        <label for="email">Email :</label><span class="set">&emsp;&emsp;&emsp;&ensp;migflor04@gmail.com</span><br>
+                        <label for="filiere">Filiere :</label><span class="set">&emsp;&emsp;&emsp;&nbsp;Informatique</span><br>
+                        <label for="niveau">Niveau :</label><span class="set">&emsp;&emsp;&emsp;3</span><br>
+                    </div>
+                </div>
             </div>
 
         </main>
@@ -116,29 +128,29 @@
         const contenu = document.querySelectorAll(".contenu");
         let index = 0;
 
-onglets.forEach((onglet) => {
-  onglet.addEventListener("focus", () => {
-    if (onglet.classList.contains('active')) {
-      return;
-    } else {
-      onglet.classList.add('active');
-    }
-    index = onglet.getAttribute('data-anim');
-    console.log(index);
-    for (i = 0; i < onglets.length; i++) { 
-      if (onglets[i].getAttribute('data-anim') != index) {
-        onglets[i].classList.remove('active');
-      }
-    }
-    for(j=0;j<contenu.length;j++){
-      if(contenu[j].getAttribute('data-anim')==index){
-        contenu[j].classList.add('activeContenu'); 
-      }else{
-        contenu[j].classList.remove('activeContenu');
-      }
-    }
-  });
-});
+        onglets.forEach((onglet) => {
+        onglet.addEventListener("focus", () => {
+            if (onglet.classList.contains('active')) {
+            return;
+            } else {
+            onglet.classList.add('active');
+            }
+            index = onglet.getAttribute('data-anim');
+            console.log(index);
+            for (i = 0; i < onglets.length; i++) { 
+            if (onglets[i].getAttribute('data-anim') != index) {
+                onglets[i].classList.remove('active');
+            }
+            }
+            for(j=0;j<contenu.length;j++){
+            if(contenu[j].getAttribute('data-anim')==index){
+                contenu[j].classList.add('activeContenu'); 
+            }else{
+                contenu[j].classList.remove('activeContenu');
+            }
+            }
+        });
+        });
     </script>
 </body>
 </html>
