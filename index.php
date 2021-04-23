@@ -5,38 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="./index.js"></script>
     <?php $titre="Accueil";?>
     <title><?php echo $titre; ?></title>
 </head>
 <body>
     <header>
-      <?php include"./includes/nav.php";?>
         <div class="banner">
-            <div class="slider1"></div>
-            <div class="slider2"></div>
-            <div class="slider3"></div>
-            <!--<div class="slider4"></div>
-            <div class="slider5"></div>
-            <div class="slider6"></div>-->
+           <div class="slider1">
+                <?php include"./includes/nav.php";?>
+                    <div class="text-banner">
+                        <h1>Travail, Assiduité, Excellence</h1>
+                        <p>Toujours au service de la méritocratie et de l’amour du travail <br>
+                        Nous prônons l'esprit de recherche permanente, l'esprit d'équipe et de solidarité</p>
+                    </div>
+            </div>
+            <div class="slider2">
+                <?php include"./includes/nav.php";?>
+                <div class="text-banner">
+                        <h1>Bourses et Diplomes </h1>
+                        <p>Vous obtindrez des bourses venant des grandes écoles <br> à la fin de cursus académique </p>
+                        <p>Contacter nous !</p>
+                </div>
+            </div>
+            <div class="slider3">
+                <?php include"./includes/nav.php";?>
+                <div class="text-banner">
+                        <h1>Benéficiez d’un suivi progressif</h1>
+                        <p>Inscrivez-vous afin d’étudier et d’améliorer vos <br> compétences dans les domaines du numerique <br> et du digital</p>
+                </div>
+            </div>
         </div>
     </header>
     <div class="article">
         <div class="message">
-            <h3>Mot du Recteur</h3>
-            <p><em>Chers étudiants,</em><br></p>
-                <p class="message-text">Au nom de Mgr Jean MBARGA, Grand Chancelier de <span class="span-color">iGenius Academy</span> et en mon nom propre, je souhaite à tous  une chaleureuse bienvenue à <span class="span-color">iGenius</span>. Je remercie de tout cœur Les Doyens de Facultés qui m’ont invité à prendre part à cette cérémonie  de lancement officiel de l’année académique 2021-2022  au sein des Etablissements dont ils ont la charge. A cette occasion, ils ont souhaité que je dise un mot de salutation  et d’encouragement à l’endroit des étudiants qui entament une année nouvelle.
-                Chers étudiants  anciens et nouveaux, par le biais du concours, par mandat particulier ou un appel du Seigneur, vous vous trouvez désormais agrégés à la grande famille éducative de <span class="span-color">iGenius</span>. Ce dont je puis vous assurer, c’est que votre présence en ces lieux marquera profondément et  à jamais votre existence. J’en parle en toutes connaissances de cause, ayant été moi-même étudiant de cette prestigieuse université. Je souhaite à chacun d’entre vous le plaisir de se sentir à l’aise au sein de cette institution. Tous nos services, comme vous le verrez, sont mobilisés à fond pour rendre votre séjour agréable à <span class="span-color">iGenius</span>. Ne perdez  pas de temps ni l’objectif premier qui vous a amené ici. Car comme le rappelle opportunément la sagesse biblique,  «  en toutes choses, il faut considérer la fin ». Saisissez pleinement toutes les opportunités que  cette  maison vous offrira pour votre formation intégrale et  vous ne le regretterez jamais.
-                Chers nouveaux étudiants, <span class="span-color">iGenius</span> a été voulue par les Chrétiens laïcs  pour assurer le continuum de la solide formation humaine, spirituelle, intellectuelle et morale entamée au sein des Ecoles et Collèges Catholiques du Cameroun. Répondant à ce vœu, le Pape  Jean Paul II confia la mission aux Evêques de l’ACERAC (Association des Conférences Episcopales de la Région d’Afrique Centrale), la réalisation matérielle de cette université.</p>
-                
-                <p class="message-text"> Depuis 25 ans, cette Institution a déjà formé  selon son style propre, plus de 10.000 cadres très  vite absorbés par les entreprises, nos églises  et le marché de l’emploi que ce soit à l’intérieur ou à l’extérieur du continent Africain. Si l’on s’en tient aux témoignages qui ne cessent de nous parvenir, les quêteurs  de ressources humaines efficientes,  compétentes et surtout moralement bien structurées, espèrent les retrouver parmi les produits finis de cette Université. Laissez-moi vous avouer que le secret de cette sollicitation pérenne n’est rien d’autre que la formation intégrale que vous recevrez dans cette institution. Cette formation est adossée aux principes à la fois simples et efficaces que sont : l’assiduité aux cours,  le travail personnel acharné,  la participation aux activités para-académiques dans le cadre des clubs mouvements et cercles de réflexion ; sans oublier la foi en Dieu qui permet aux pauvres créatures humaines de  transcender leurs contingences  pour se hisser au niveau des projets divins.
-                La nouvelle équipe rectorale qui se met progressivement  en place vous souhaite la grâce des commencements  et vous assure sa pleine disponibilité à vous accompagner tout au long de cette année académique.
-                Considérant  le chemin parcouru par <span class="span-color">iGenius</span> durant son pèlerinage historique et ce que nous ressentons comme mutations à l’œuvre dans le monde de ce temps, nous n’hésiterons pas à oser et à innover pour le plus grand bien de nos étudiants que vous êtes. Enracinés dans le terreau de la foi et de nos traditions les meilleurs, rassurés ces paroles de notre Seigneur Jésus : « n’ayez pas peur », « avancez au large », «  Je suis avec vous jusqu’à la fin des temps », nous nous efforcerons de vous pousser jusqu’aux extrêmes limites du savoir et de la vertu.</p>
-
-                <p class="message-text">Ceci dit, il ne me reste plus qu’à vous souhaiter à tous  une bonne année académique 2021-2022.</p>
-
-                <p class="message-text">Je Vous remercie pour votre aimable attention</p>
+            <h4>Mot de bienvenue</h4>
+                <p>À l’occasion de la rentrée universitaire 2020-2021, je tiens à souhaiter la bienvenue aux nouveaux étudiants qui joignent les rangs de notre université ainsi qu’un excellent trimestre à vous tous qui poursuivez votre cheminement avec nous.
+                La qualité de votre expérience universitaire est au cœur de nos préoccupations. Chaque jour, vos professeurs et votre université orientent leurs efforts vers votre réussite. Notre personnel dévoué et compétent est là pour vous guider et vous fournir de judicieux conseils tout au long de votre parcours.</p>
+                <p>Vous avez choisi une université innovante, dynamique et créative, qui vous offre un parcours académique de qualité, basé sur un modèle de formation flexible. Cela vient avec une grande responsabilisation pour arriver à vous approprier votre projet d’études et, je vous le souhaite, à l’intégrer sans trop d’encombres dans votre vie personnelle et professionnelle.
+                Aussi, je vous encourage à prendre connaissance des nombreuses ressources qui vous sont offertes et à ne pas hésiter à faire appel aux gens qui sont là pour vous. J’insiste aussi sur l’importance que nous accordons à vos commentaires. N’hésitez pas à nous parler et à nous partager votre expérience et vos impressions en tout temps Nous sommes à l’écoute.</p>
+                <p>Je vous souhaite une année remplie de succès et de découvertes. Merci de nous faire confiance!</p>
+                <p>Miguel Florian <br> <em>Directeur Générale</em></p>
+        </div>
+        <div class="atout">
+            <h2>Nos différents atouts</h2>
+            
         </div>
 
             <p class="before-stat">Voici nos statistiques durant l'année dernière selon les différents niveaux de formation !</p>
@@ -73,10 +89,12 @@
             <?php include "./includes/footer.php";?>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
-    <script type="text/javascript">
+<script>
+    $(function(){
+		$('#nav a').click(function(){
+			$(this).parent().addClass('active').siblings().removeClass('active')	
+		})
+	})
     var n = 95; // Nombre final du compteur
     var cpt = 0; // Initialisation du compteur
     var duree = 2; // Durée en seconde pendant laquel le compteur ira de 0 à 15
@@ -90,10 +108,6 @@
     }
     }
      setTimeout(countdown, delta);
-
-     /*$(document).on('click','ul li',function(){
-        $(this).addClass('active')
-    })*/
-    </script>
+</script>
 </body>
 </html>
