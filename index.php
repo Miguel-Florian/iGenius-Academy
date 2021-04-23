@@ -27,7 +27,7 @@
                 <?php include"./includes/nav.php";?>
                 <div class="text-banner">
                         <h1>Bourses et Diplomes </h1>
-                        <p>Vous obtindrez des bourses venant des grandes écoles <br> à la fin de cursus académique </p>
+                        <p>Vous obtiendrez des bourses venant des grandes écoles <br> à la fin de cursus académique </p>
                         <p>Contacter nous !</p>
                 </div>
             </div>
