@@ -6,7 +6,6 @@
                         <li class="link"id="about"data-anim="2"><a href="about.php">iGenuis</a></li>
                         <li class="link"id="connexion"data-anim="3"><a href="connexion.php">Connexion</a></li>
                         <li class="link"id="contact"data-anim="4"><a href="contact.php">Contact</a></li>
-                        <li class="link"id="contact"data-anim="4"><a href="contact.php">S'inscrire</a></li>
                     </ul>
                 </div>
 </nav>

@@ -50,13 +50,7 @@
                 <p>Je vous souhaite une année remplie de succès et de découvertes. Merci de nous faire confiance!</p>
                 <p>Miguel Florian <br> <em>Directeur Générale</em></p>
         </div>
-        <div class="atout">
-            <h2>Nos différents atouts</h2>
-            
-        </div>
-
-            <p class="before-stat">Voici nos statistiques durant l'année dernière selon les différents niveaux de formation !</p>
-        
+            <p class="before-stat">Nos Statistiques</p>
         <div class="stat">
             <div class="group bts">
                 <p class="cape"><i class="las la-graduation-cap la-4x"></i><h3>BTS</h3></p>
@@ -79,6 +73,14 @@
                 <p class="up"><i class="las la-long-arrow-alt-up"></i> Une hausse de: <b>+1.5%</b></p>
             </div>
         </div>
+         <div class="atout">
+            <h2>Nos différents atouts</h2>
+            
+        </div>
+        <div class="partner">
+            <h2>Nos partenaires officielles</h2>
+            
+        </div>
         <div class="newsletter">
             <div class="form">
                 <p class="newsletter-title-form">Souscrire à notre newsletters </p>
@@ -90,11 +92,6 @@
         </div>
     </div>
 <script>
-    $(function(){
-		$('#nav a').click(function(){
-			$(this).parent().addClass('active').siblings().removeClass('active')	
-		})
-	})
     var n = 95; // Nombre final du compteur
     var cpt = 0; // Initialisation du compteur
     var duree = 2; // Durée en seconde pendant laquel le compteur ira de 0 à 15
@@ -108,6 +105,12 @@
     }
     }
      setTimeout(countdown, delta);
+
+     $(function(){
+		$('#nav a').click(function(){
+			$(this).parent().addClass('active').siblings().removeClass('active')	
+		})
+	})
 </script>
 </body>
 </html>
