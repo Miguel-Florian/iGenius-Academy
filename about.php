@@ -27,21 +27,44 @@
         <div class="content">
             <div id="admin">
                 <h3>Administation</h3><hr> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus.</p>
-                <p>Dr azzaza</p>
+                <p class="text-bloc"> <b>iGenius</b> a une administration hierachique constitué comme suit :</p>
+                <img class="admin-diagram"src="./images/Group.svg" alt="">
             </div><hr>
             <div id="fac">
                 <h3>Differentes Facultés</h3><hr> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
+                <p class="text-bloc">Au sein de notre académie, nous regorgeons plusieurs filères. 
+                    <br>
+                    <h4 class="fac-title">Département du Numerique</h4>
+                    <ul class="list-obj">
+                        <li>Génie Logiciel</li>
+                        <li>Réseaux et télécommunications</li>
+                        <li>Design(2D,3D,Animation,UI/UX,Graphique)</li>
+                    </ul>
+                    <h4 class="fac-title">Département du Digital</h4>
+                    <ul class="list-obj">
+                        <li>Marketing Digital</li>
+                        <li>Marketing,Commerce et Vente (MCV)</li>
+                        <li>Communauty Management</li>
+                    </ul>
+                </p>
             </div><hr>
             <div id="ceremony">
                 <h3>Differentes Cérémonies et Prix</h3><hr> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
+                <p class="text-bloc">Tout comme d'autres école, nous possédons une cérémonies pour l'accueil des nouveaux étudiants au début de l'année et également une cérémonie pour la rémise de diplômes de fin d'année accompagné de la remise de bourses, des offres d'emploi pour des apprenants ayant fait leurs preuves
+                    <br>Comme bourses nous avons :
+                    <ul class="list-obj">
+                        <li>Bourse du meilleur Developpeur par <b>Microsoft</b>, <b>Android</b>, <b>Huawei</b></li>
+                        <li>Bourse du meilleur infographe</li>
+                        <li>Bourse du meilleure Web Designer <b>Microsoft</b></li>
+                        <li>Bourse du super marketer <b>Tesla</b></li>
+                        <li>Bourse du meilleure UX/UX Design <b>Microsoft</b>, <b>Android</b></li>
+                    </ul>
+                </p>
             </div><hr>
             <div id="visite">
-                <h3>Présentation des diiferents bâtiment du campus</h3><hr> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at, dicta voluptatum, cum dolorum aliquid vero quo earum harum placeat obcaecati repudiandae! Nemo et distinctio possimus facilis, illum aliquid commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam dolor cumque tempore totam soluta a eum! Asperiores porro enim cumque libero cum culpa suscipit laboriosam doloremque facilis dolores! Beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex ipsum soluta accusantium, suscipit saepe ipsam, quod, possimus doloremque in sit ipsa excepturi quidem optio repellat facilis quos natus delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam facilis praesentium quae tempore exercitationem suscipit quasi pariatur dignissimos ex accusantium perferendis, aspernatur quas culpa? Sint perferendis nam nesciunt tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quos id tenetur est minima, sunt doloremque ducimus quas possimus, repellendus hic quia porro ullam ea, corporis quae quaerat. Consequatur, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit sed, ad ipsum assumenda commodi at nihil natus ducimus eos quas dolore placeat rem eum laboriosam modi, dolorum provident libero.</p>
-            </div><hr>
+                <h3>Présentation des diferents bâtiment du campus</h3><hr> 
+                <p class="text-bloc">Voici un caroussel illustrant nos bâtiments.</p>
+            </div>
         </div>
     </div>
 </body>
