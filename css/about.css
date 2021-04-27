@@ -60,6 +60,11 @@ aside{
     position: fixed;
     right: 0;
     top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 aside ul li {
     list-style: none;
