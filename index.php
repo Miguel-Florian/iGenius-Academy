@@ -188,16 +188,23 @@
                 </div>
             </div>
         </div>
-        <div class="partner">
-            <h2>Nos partenaires officielles</h2>
-            
-        </div>
-        <div class="newsletter">
-            <div class="form">
-                <p class="newsletter-title-form">Souscrire à notre newsletters </p>
-                <?php include "./includes/newsletter.php";?>
+
+        <div class="bg-lightblue">
+            <div class="newsletter">
+                <div class="form">
+                    <p class="newsletter-title-form">Souscrire à notre newsletters </p>
+                    <?php include "./includes/newsletter.php";?>
+                </div>
             </div>
         </div>
+        
+        <div class="bg-light">
+            <div class="partner">
+                <h2>Nos partenaires officielles</h2>
+            </div>
+        </div>
+        
+        
         <div class="footer">
             <?php include "./includes/footer.php";?>
         </div>
