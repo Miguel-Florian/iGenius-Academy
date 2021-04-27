@@ -200,7 +200,7 @@
 
         <div class="bg-light">
             <div class="partner">
-                <h2>Nos partenaires officielles</h2>
+                <h2>Nos partenaires officiels</h2>
                 <ul class="svg-logo">
                     <li><img src="./images/nasa-1.svg" alt=""></li>
                     <li><img src="./images/microsoft-5.svg" alt=""></li>
