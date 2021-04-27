@@ -61,7 +61,7 @@ aside{
     right: 0;
     top: 10%;
 }
-ul li {
+aside ul li {
     list-style: none;
     margin-top:10%;
     
@@ -76,13 +76,40 @@ ul li a{
 }
 .content{
     /*border:1px solid violet;*/
-    width: 60vw;
+    width: 70vw;
     margin:2% auto;
     padding: 20px;
     text-align: justify;
     height:auto;
-    background-color: rgba(248, 248, 248, 0.664);
+    background-color: #edf6f5!important;
 }
 h3{
-    color: rgb(167, 13, 238);
+    color:rgb(13, 137, 238);
 }
+.text-bloc,.fac-title,b{
+    color: #222;
+    font-family: lato,sans-serif;
+    line-height: 1.2;
+    text-align: justify;
+}
+.fac-title{
+    font-size: 18px;
+}
+.list-obj{
+   border-left: 3px solid #222;
+   width: auto;
+   height: auto;
+   background-color: #fff;
+   border-radius: 0px 12px 12px 0px;
+   margin: 2%;
+   padding: 2%;
+}
+.list-obj li{
+    margin-left: 2%;
+}
+.admin-diagram{
+    width: 78vw;
+    height: 78vh;
+}
+
+
