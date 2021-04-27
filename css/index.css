@@ -1,26 +1,33 @@
 body{
-   font-family: lato,sans-serif;
+    font-family: Helvetica;
     font-size: 20px;
-    background-color: #FCFBFC;
 }
 .logo{
     float:left;
-    width: 100px;
-    height: 100px;
-}
-.logo img{
-    width: 100px;
-    height: 100px;
 }
 #nav {
     height: 18vh;
-	padding: 0; 
-    margin-right: 20%;
-	text-align: center;
+	padding: 0; margin-right: 20px;
+	text-align: right;
 }
 #nav li {
 	display: inline;
 	list-style: none;
+}
+#nav a:hover{
+    color:#C82C8D;
+    border-bottom: 2px solid #C82C8D;
+    border-width: 2px;
+    border-radius: 2px;
+}
+#nav a {
+     padding-top: 2%;
+	display:inline-block;
+	margin: 0 30px;
+    text-decoration: none;
+    color:#77961D;
+    font-weight: bold;
+    font-size: 18px;
 }
 a:active{
     border-width: 2px;
@@ -32,15 +39,6 @@ a:active{
 }
 .active a{
       color:#C82C8D! important;
-}
-#nav a{
-     padding-top: 2%;
-	display:inline-block;
-	margin: 0 30px;
-    text-decoration: none;
-    color:#77961D;
-    font-weight: bold;
-    font-size: 18px;
 }
 .banner{
     width: auto;
@@ -61,6 +59,7 @@ a:active{
 }
 .text-banner{
     padding: 100px;
+    color: rgb(43, 41, 41);
 }
 .signup-link{
     border:1px solid black;
@@ -354,12 +353,27 @@ input[type="submit"]:hover{
     width: 86vw;
     height: 40vh;
 }
+.partner ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.svg-logo li{
+    list-style-type: none;
+    margin-top: 4%;
+}
+.svg-logo li img{
+    width: 10vw;
+    height: 10vh;
+}
 .footer{
     border:0px solid black;
     margin-top:2%;
-    background-color: rgb(24, 22, 22);
-    color:white;
-    border-radius:12px;
+    background-color: #edf6f5!important;
+    color:#222;
+    
 }
 footer{
     margin: 0 auto;
@@ -367,10 +381,11 @@ footer{
     flex-direction: row;
     padding-left:14px;
     padding-right: 14px;
+    align-items: center;
+    justify-content: center;
 }
 span{
     font-weight: bold;
-    color:blueviolet;
 }
 .recap{
     width: 40vw;
@@ -382,13 +397,13 @@ span{
     width: 20vw;
     padding: 6px;
     font-size: 18px;
-    display:inline-flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 .footer-nav-link ul li{
-    margin-top:10%;
+    margin-top:30%;
     list-style: none;
 }
 .social-link ul li{
@@ -427,7 +442,8 @@ ul .link a {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    color:rgb(13, 137, 238);
+    color:#A2C53D;
+    font-weight: bold;
 }
 .social-link{
     width: 40vw;

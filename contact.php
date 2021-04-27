@@ -43,7 +43,7 @@
        </div>
       <form name="" action="" onsubmit="return validateForm()" method="post">
         <h4 class="h4-color">Formulaire de contact</h4>   
-        <img src="./images/4926341.png" alt="iGenius">
+        <img src="./images/iGenius-50.png" alt="iGenius">
       <table class="form-style">
             <tr>
                <td>

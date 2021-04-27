@@ -197,10 +197,20 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="bg-light">
             <div class="partner">
                 <h2>Nos partenaires officielles</h2>
+                <ul class="svg-logo">
+                    <li><img src="./images/nasa-1.svg" alt=""></li>
+                    <li><img src="./images/microsoft-5.svg" alt=""></li>
+                    <li><img src="./images/tesla-motors-1.svg" alt=""></li>
+                    <li><img src="./images/amazon-icon-1.svg" alt=""></li>
+                    <li><img src="./images/huawei.svg" alt=""></li>
+                    <li><img src="./images/harvard-university.svg" alt=""></li>
+                    <li><img src="./images/android.svg" alt=""></li>
+                    <li><img src="./images/swift-15.svg" alt=""></li>
+                </ul>
             </div>
         </div>
         

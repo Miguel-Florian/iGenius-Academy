@@ -15,8 +15,8 @@ body{
 	list-style: none;
 }
 #nav a:hover{
-    color:rgb(167, 13, 238);
-    border-bottom: 2px solid rgb(167, 13, 238);
+    color:#C82C8D;
+    border-bottom: 2px solid #C82C8D;
     border-width: 2px;
     border-radius: 2px;
 }
@@ -25,7 +25,7 @@ body{
 	display:inline-block;
 	margin: 0 30px;
     text-decoration: none;
-    color:rgb(13, 137, 238);
+    color:#77961D;
     font-weight: bold;
     font-size: 18px;
 }
@@ -50,7 +50,7 @@ span{
   font-size: 18px;
 }
 .span-color,.label-color,.h4-color{
-    color:rgb(167, 13, 238);
+  color: #4eb5f1;
 }
 h4{
   text-align: center;
@@ -61,8 +61,8 @@ img{
 }
 h5{
   font-size:xx-large;
-  color: rgb(167, 13, 238);
   margin-left:8%;
+  color: #4eb5f1;
 }
 .social-link{
     width: 40vw;
@@ -116,6 +116,7 @@ ul .link a {
     display: flex;
     flex-direction:row;
     justify-content: center;
+    gap: 2em;
 }
 .form-style {
   margin:10px auto;
