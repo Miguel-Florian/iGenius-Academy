@@ -19,7 +19,7 @@
     <div class="container">
        <div class="text">
           <p><span class="span-color">iGenius Academy</span> est situé dans la ville de Douala, sur la Rue Soudanaise à Akwa proche du bâtiment d'Orange Cameroun, nous proposons un service académique de reférence à travers le monde.</p>
-          <p>Nous sommes ouvrable selon les jours et les horaires suivants :
+          <p>Nous sommes ouvrables selon les jours et les horaires suivants :
              <ul>
                 <li>De <span class="span-color">Lundi</span> à <span class="span-color">Vendredi</span> de <span class="span-color">07H</span> - <span class="span-color">18H</span></li>
                 <li>Le <span class="span-color">Samedi</span> de <span class="span-color">09H</span> - <span class="span-color">15H</span></li>
