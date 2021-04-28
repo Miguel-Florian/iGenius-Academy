@@ -15,7 +15,7 @@ $query="SELECT * FROM etudiants WHERE email='{$mail}' && matricule ='{$pass}' ";
         if($mail!==$db_email && $pass!==$db_password){
             header("Location:error.php");
         }else if($mail==$db_email && $pass==$db_password){
-
+            
             $_SESSION['nom']=$db_nom;
             $_SESSION['prenom']=$db_prenom;
             $_SESSION['email']=$db_email;
