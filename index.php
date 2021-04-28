@@ -15,7 +15,7 @@
     <header>
         <div class="banner">
            <div class="slider1">
-                <?php include"./includes/nav.php";?>
+                <?php include "./includes/nav.php";?>
                     <div class="text-banner">
                         <h1>Travail, Assiduité, Excellence</h1>
                         <p>Toujours au service de la méritocratie et de l’amour du travail <br>
