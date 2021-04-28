@@ -14,6 +14,6 @@ setcookie('user',$_SESSION['prenom'],time()+60*60*72);
     <title>Dashboard | <?=$titre;?></title>
 </head>
 <body>
-    <h5>Bonjour <?php echo($_SESSION['nom']." ".$_SESSION['prenom']); ?>  <br> vous etes etudiant</h5>
+    <h5>Bonjour <!--<?php echo($_SESSION['nom']." ".$_SESSION['prenom']); ?>-->  <br> vous etes professeur</h5>
 </body>
 </html>
