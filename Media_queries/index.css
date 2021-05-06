@@ -106,9 +106,9 @@
             padding: none;
         }
         input[type="submit"]{
-            width: 90px;
-            height: 40px;
-            font-size: 16px;
+            width: 70px;
+            height: 30px;
+            font-size: 14px;
         }::placeholder{
             font-size: 12px;
         }
@@ -123,7 +123,7 @@
             flex-direction: row;
             margin: 0 auto;
             justify-content: center;
-            gap:0.2em;
+            gap:0.4em;
             margin-left: -2em;
         }
         .partner{
@@ -157,6 +157,246 @@
         }
         .social-link{
             width: 120vw;
+            margin-left: -4%;
+        }
+        .social-link ul {
+            display: inline;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-link ul li {
+            width: 40px;
+            height: 40px;
+        }
+        .lab{
+            font-size: 20px;
+        }
+}
+@media only screen and (min-width:425px) and (max-width:768px){
+    .first-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2%;
+}
+.first-row>.card {
+    height: 30vh;
+    width: 24vw;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.card>h4 {
+    text-align: center;
+    color: #222;
+    font-family: lato,sans-serif;
+    font-weight: 700;
+    line-height: none;
+    font-size: 14px;
+}
+.card>p {
+    text-align: center;
+    font-weight: 400;
+    color: #777;
+    font-size: 12px;
+    line-height: 1.7;
+    font-family: "lato",sans-serif;
+
+}
+.la{
+    font-size: 20px;
+}
+.method h2{
+    text-align: center;
+    color: #222;
+    font-family: "lato",sans-serif;
+   font-size: 16px;
+}
+.section-title,.workflow h2 {
+    color: #222;
+    font-family: "lato",sans-serif;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align: justify;
+}.before-stat{font-size: 20px;}
+.stat{
+    gap: 0.1em;
+}
+.las,h3, #compteur, #compteur1, #compteur2, #compteur3,.up{
+    font-size: 16px;
+}
+input[type="email"] {
+    padding-left: 2em;
+    width: 58vw;
+    height: 50px;
+    border-radius: 14px;
+    outline: none;
+    border: 0px;
+    transition: 0.2 ease;
+}
+}
+@media only screen and (min-width:320px) and (max-width:425px){
+    body,.article{
+        width: 320px;
+    }
+        .text-banner{
+            padding:60px 40px 40px 40px;
+        }
+        .text-banner h1{
+            font-size: 20px;
+            padding: none;
+            text-align: center;
+        }
+        .text-banner p{
+            font-size: 18px;
+            text-align:justify;
+            word-spacing: none;
+        }
+        .signup-link{
+            width: 80vw;
+        }
+        .method h2{
+            font-size: 20px;
+        }
+        .first-row{
+            display: flex;
+            flex-direction: column;
+            gap:0.5em;
+            align-items: center;
+            margin-top: none;
+            padding-bottom: 10px;
+        }
+        .first-row>.card{
+            width: 70vw;
+            height: 36vh;
+            padding: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 1em;
+        }
+        .card h4{
+            font-size: 18px;
+        }
+        .card>p{
+            font-size: 14px;
+        }
+        .section{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 0.1em;
+        }
+        .section-image{
+            width: 320px;
+        }
+        .section-image img{
+            width: 300px;
+        }
+        .text-section, .second-paragraph{
+            padding: 10px;
+            width: 80vw;
+        }
+        .section-title{
+        font-size: 20px;
+        }
+        .second-title{
+            text-align: center;
+            display: inline;
+            align-self: center;
+            justify-content: center;
+
+        }
+        .bg-lightblue,.bg-lightblue-padding {
+            margin-left: -8px;
+            padding: 20%;
+        }
+        .workflow h2,.before-stat{
+            font-size: 20px;
+            text-align: center;
+        }
+        .workflow-image{
+            width: 300px;
+            height: 20vh;
+        }
+        .workflow-image img{
+            height: 20vh;
+            margin-left: -5px;
+        }
+        .stat{
+            gap:1em;
+            display: flex;
+            flex-direction: column;
+        }
+        .group{
+            width: 78vw;
+        }
+        h3,#compteur,#compteur1,#compteur2,#compteur3{
+            font-size: 20px;
+        }
+        .las{
+            font-size: 30px;
+        }
+        form{
+            display: flex;
+            flex-direction: row;
+        }
+        input[type="email"]{
+            width: 46vw;
+            height: 40px;
+            padding: none;
+        }
+        input[type="submit"]{
+            width: 70px;
+            height: 30px;
+            font-size: 14px;
+        }::placeholder{
+            font-size: 12px;
+        }
+        .partner h2{
+            font-size: 20px;
+        }
+        .bg-light-logo{
+            height: 30vh;
+        }
+        .partner ul{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            justify-content: center;
+            gap:0.6em;
+            margin-left: -2em;
+        }
+        .partner{
+            height: 54vh;
+        }
+        .svg-logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4em;
+        }
+        .svg-logo li img{
+            width: 10vw;
+            height: 10vh;
+        }
+        .footer  {
+            margin-left:-0.4em;
+            width: 460px;
+        }
+        footer{
+            padding-left: 18px;
+            display: flex;
+            flex-direction: column;
+        }
+        .recap,.recap span{
+            width: 60vw;
+            font-size: 14px;
+        }
+        .footer-nav-link{
+            display: none;
+        }
+        .social-link{
+            width: 120vw;
+            margin-left: 40%;
         }
         .social-link ul {
             display: inline;
