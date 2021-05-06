@@ -1,2 +1,2 @@
 # iGenius-Academy
-> Plate forme numerique
+> Plate forme numerique non responsive !
