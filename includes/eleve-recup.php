@@ -19,7 +19,7 @@ $query="SELECT * FROM etudiants WHERE email='{$mail}' && matricule ='{$pass}' ";
             $_SESSION['nom']=$db_nom;
             $_SESSION['prenom']=$db_prenom;
             $_SESSION['email']=$db_email;
-            header("Location:etudiant.php");
+            header("Location:./dashboard/etudiant.php");
         }else{
              header("Location:index.php");
         }
