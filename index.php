@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./Media_queries/index.css">
     <script src="./index.js"></script>
     <?php $titre="Accueil";?>
     <title><?php echo $titre; ?></title>
@@ -20,7 +21,7 @@
                         <h1>Travail, Assiduité, Excellence</h1>
                         <p>Toujours au service de la méritocratie et de l’amour du travail <br>
                         Nous prônons l'esprit de recherche permanente, l'esprit d'équipe et de solidarité</p>
-                        <div class="signup-link"><a href="#">S'inscrire</a></div>
+                        <div class="signup-link"><a href="./inscription.php">S'inscrire</a></div>
                     </div>
             </div>
             <!--<div class="slider2">
@@ -119,7 +120,7 @@
                     <p class="section-paragraph second-paragraph">
                         Nous offrons des bourses d'études à tous les étudiants à la fin de chaque diplôme à des académiciens compétents. De plus durant le cour de l'année académique nous offrons également à ces derniers des stages dans des entreprises de renoms du pays. 
                     </p>
-                    <div class="signup-link"><a href="#">Postuler</a></div>
+                    <div class="signup-link"><a href="./postuler.php">Postuler</a></div>
                 </div>
                 <div class="section-image"><img src="./images/service-1.png" alt=""></div>
             </div>
@@ -198,7 +199,7 @@
             </div>
         </div>
 
-        <div class="bg-light">
+        <div class="bg-light bg-light-logo">
             <div class="partner">
                 <h2>Nos partenaires officiels</h2>
                 <ul class="svg-logo">
@@ -227,10 +228,10 @@
     var node =  document.getElementById("compteur") // On récupère notre noeud où sera rafraîchi la valeur du compteur
     
     function countdown() {
-    node.innerHTML = ++cpt+"%";
-    if( cpt < n ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
-        setTimeout(countdown, delta);
-    }
+        node.innerHTML = ++cpt+"%";
+        if( cpt < n ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
+            setTimeout(countdown, delta);
+        }
     }
      setTimeout(countdown, delta);
 
