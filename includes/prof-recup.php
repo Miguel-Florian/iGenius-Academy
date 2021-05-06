@@ -19,7 +19,7 @@
             $_SESSION['nom']=$db_nom;
             $_SESSION['prenom']=$db_prenom;
             $_SESSION['email']=$db_email;
-            header("Location:prof.php");
+            header("Location:./dashboard/prof.php");
         }else{
              header("Location:index.php");
         }
