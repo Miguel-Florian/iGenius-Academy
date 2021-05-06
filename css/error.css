@@ -1,3 +1,6 @@
+body{
+    font-family:"lato";
+}
 .container{
     justify-content: center;
     align-items: center;
@@ -12,7 +15,7 @@ img{
     text-align: center;
 }
 h2,h1{
-    font-family: Helvetica;
+    font-family:"lato";
 }
 h1{
     color:rgb(66, 94, 218);
@@ -40,7 +43,7 @@ a:hover{
 }
 a{
     text-decoration: none;
-    font-family: Helvetica;
+    font-family:"lato";
     font-size: 18px;
     font-weight: bold;
     color:white;
