@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica;
+    font-family:"lato";
     font-size: 20px;
 }
 .logo{
@@ -28,6 +28,7 @@ body{
     color:#77961D;
     font-weight: bold;
     font-size: 18px;
+    font-family:"lato";
 }
 a:active{
     border-width: 2px;
@@ -45,6 +46,7 @@ a:active{
   width: 40vw;
   padding: 20px;
   text-align: justify;
+  font-family:"lato";
 }
 .text-banner{
   width:auto;
@@ -55,16 +57,20 @@ a:active{
     justify-content: center;
     align-content: center;  
     background-position: right;
+    font-family:"lato";
 }
 span{
   font-weight: bold;
   font-size: 18px;
+  font-family:"lato";
 }
 .span-color,.label-color,.h4-color{
   color: #4eb5f1;
+  font-family:"lato";
 }
 h4{
   text-align: center;
+  font-family:"lato";
 }
 img{
   display: block;
@@ -74,6 +80,7 @@ h5{
   font-size:xx-large;
   margin-left:8%;
   color: #4eb5f1;
+  font-family:"lato";
 }
 .social-link{
     width: 40vw;
@@ -121,6 +128,7 @@ ul .link a {
     align-items: flex-start;
     justify-content: flex-start;
     color:rgb(13, 137, 238);
+    font-family:"lato";
 }
 .container{
     margin:0 auto;
@@ -133,7 +141,7 @@ ul .link a {
   margin:10px auto;
   width: 400px;
   padding: 20px 12px 10px 20px;
-  font-family: Helvetica;
+  font-family:"lato";
   font-size: 14px;
 }
 form{
@@ -152,6 +160,7 @@ form{
   padding:0px;
   display:block;
   font-weight: bold;
+  font-family:"lato";
 }
 
 .form-style .required{
@@ -168,6 +177,7 @@ form{
   font-size: 16px;
   border-radius: 12px;
   margin-top: 10%;
+  font-family:"lato";
   
 }
 .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
@@ -193,6 +203,7 @@ textarea{
   padding: 7px;
   margin:0px;
   outline: none;  
+  font-family:"lato";
 }
 .form-style .long{
   width: 100%;
