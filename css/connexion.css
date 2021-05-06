@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica;
+    font-family: "lato";
     font-size: 20px;
 }
 .logo{
@@ -49,15 +49,18 @@ a:active{
     justify-content: center;
     align-content: center;  
     background-position: right;
+    font-family:"lato";
 }
 h2{
     text-align: center;
     color:rgb(13, 137, 238);
+    font-family:"lato";
 }
 h5{
   font-size:xx-large;
   margin-left:8%;
   color: #4eb5f1;
+  font-family:"lato";
 }
 .form{
     max-width: 880px;
@@ -77,6 +80,7 @@ h5{
     justify-content: center;
     padding:0px;
     height: 90vh;
+    font-family:"lato";
  
 }
 form{
@@ -87,6 +91,7 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family:"lato";
 }
 .input-group{
     display: inline-flex;
@@ -103,14 +108,17 @@ input[type="email"],input[type="password"]{
     outline: none;
     border:0px;
     margin-left:2%;
+    font-family:"lato";
 }.span-color{
     font-weight: bold;
     text-decoration: underline;
     color:rgb(13, 137, 238);
+    font-family:"lato";
 }
 label{
     font-weight: bold;
     font-size: 20px; 
+    font-family:"lato";
 }
 #et{
     color:rgba(0, 0, 0, 0.774);
@@ -128,9 +136,11 @@ input[type="submit"]{
     font-weight: bold;
     color:blueviolet;
     cursor: pointer;
+    font-family:"lato";
 }
 ::placeholder{
     font-weight: bold;
+    font-family:"lato";
 }
 input[type="submit"]:hover{
    color: rgb(0, 255, 85);
@@ -151,8 +161,7 @@ a{
     font-weight: bold;
     font-size: 18px;
     color:rgba(4, 81, 248, 0.822);
-
-
+    font-family:"lato";
 }
 i{
     color:rgba(4, 81, 248, 0.822);
