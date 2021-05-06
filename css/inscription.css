@@ -84,5 +84,5 @@ input[type="password"]:focus,input[type="email"]:focus,input[type="text"]:focus{
   border: 2px solid #88D5E9;
 }
 i{
-    color:rgba(4, 81, 248, 0.822);
+    color:#000;
 }
