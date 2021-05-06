@@ -81,7 +81,7 @@ a:active{
     background-color:#C82C8D;
      border-color: #C82C8D;
 }
-.signup-link a[href="#"]{
+.signup-link a[href="./inscription.php"],.signup-link a[href="./postuler.php"]{
     text-decoration: none;
     color: white;   
 }
@@ -106,12 +106,6 @@ span,.signup-link a{
     height: auto;
     padding: 2%;
 }
-/*.message{
-    text-align: justify;
-    font-size: 18px;
-    padding:30px;
-    border-radius:12px;
-}*/
 .method h2{
     text-align: center;
     color: #222;
@@ -151,7 +145,7 @@ span,.signup-link a{
     color: #777;
     font-size: 16px;
     line-height: 1.7;
-    font-family: lato,sans-serif;
+    font-family: "lato",sans-serif;
 }
 .card>h4{
     text-align: center;
@@ -191,7 +185,7 @@ span,.signup-link a{
     color: #777;
     font-size: 16px;
     line-height: 1.7;
-    font-family: lato,sans-serif;
+    font-family: "lato",sans-serif;
 }
 .section-image{
     border: 0px solid black;
@@ -459,3 +453,4 @@ ul .link a {
     align-items: center;
     justify-content: center;
 }
+/** Responsive media queries for 375px*/
