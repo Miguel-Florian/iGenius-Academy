@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-    setcookie('user',$_SESSION['prenom'],time()+60*60*72);
+    setcookie('user',$_SESSION['prenom']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,19 +16,25 @@ session_start();
     <title>Dashboard | <?=$titre;?></title>
 </head>
 <body>
-    <!--<h5>Bonjour <?php echo($_SESSION['nom']." ".$_SESSION['prenom']); ?>  <br> vous etes etudiant</h5>-->
+    <!--  <br> vous etes etudiant</h5>-->
     
     <header>
         <div class="toggle_btn">
             <span></span>
         </div>
     </header>
-    <div class="menu nav">
-        <a href="#" class="logo">iGenius</a>
-        <a href="#">Consulter les cours</a>
-        <a href="#">Consulter les Notes</a>
-        <a href="#">Ins.Academique</a>
-        <a href="#">Settings</a>
+    <div class="container">
+        <div class="menu nav">
+            <h4>Bienvenue <?php echo($_SESSION['nom']." ".$_SESSION['prenom']); ?></h4>
+            <a href="../index.php" class="logo">iGenius</a>
+            <a href="#">Consulter les cours</a>
+            <a href="#">Consulter les Notes</a>
+            <a href="#">Inscrip.Academique</a>
+            <a href="#">Ecrire une requête</a>
+        </div>
+        <div class="contain">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, incidunt dolore! Numquam adipisci voluptates aliquam ab ducimus expedita saepe minima, beatae eveniet est, mollitia distinctio asperiores tempore iure temporibus laboriosam?</p>
+        </div>
     </div>
     <script type="text/javascript" src="./etudiant.js"></script>
 </body>
