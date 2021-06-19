@@ -70,6 +70,9 @@ input[type="submit"]{
 ::placeholder{
     font-weight: bold;
 }
+input[name="bourse"]{
+    width:10em;
+}
 input[type="submit"]:hover{
    color: rgb(0, 255, 85);
     background-color: rgb(113, 112, 182);
