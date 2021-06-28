@@ -1,3 +1,14 @@
 body{
     font-family:"lato";
 }
+header{
+    margin: -1em 0em 0em -1em;
+    width:87em;
+    height: 4em;
+    background-color: rgba(4, 81, 248, 0.822);
+}
+h4{
+    float: right;
+    color: white;
+    margin-right: 2em;
+}
