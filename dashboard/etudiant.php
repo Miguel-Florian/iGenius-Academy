@@ -9,7 +9,9 @@ setcookie('user',$_SESSION['prenom']);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="../css/etudiant.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <scrip src="index.js"></scrip>
     <?php $titre="Etudiant";?>
     <title>Dashboard | <?=$titre;?></title>
@@ -20,55 +22,55 @@ setcookie('user',$_SESSION['prenom']);
         <ul>
             <li>
                 <a href="../index.php">
-                    <span class="icon"></span>
+                    <span class="icon"><img src="../images/iGenius-50.png" alt=""></span>
                     <span class="title"><h2>iGenius Academy</h2></span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="icon"><i class="las la-home"></i></span>
                     <span class="title">Dashboard</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="fas fa-tasks"></i></span>
+                    <span class="icon"><i class="las la-tasks"></i></span>
                     <span class="title">Requetes</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="far fa-file-pdf"></i></span>
+                    <span class="icon"><i class="las la-clipboard"></i></span>
                     <span class="title">Notes</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="far fa-book-open"></i></span>
+                    <span class="icon"><i class="las la-file-pdf"></i></span>
                     <span class="title">Cours</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="far fa-prescription-bottle"></i></span>
+                    <span class="icon"><i class="lab la-wpforms"></i></span>
                     <span class="title">Inscription</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="far fa-prescription-bottle"></i></span>
+                    <span class="icon"><i class="las la-comment"></i></span>
                     <span class="title">Communiqué</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="fal fa-question-circle"></i></span>
+                    <span class="icon"><i class="las la-question-circle"></i></span>
                     <span class="title">Help</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="fas fa-lock"></i></span>
+                    <span class="icon"><i class="las la-lock"></i></span>
                     <span class="title">Déconnexion</span>
                 </a>
             </li>
@@ -77,11 +79,11 @@ setcookie('user',$_SESSION['prenom']);
 </div>
 <div class="main">
     <div class="topbar">
-            <div class="toggle" onclick="toggleMenu();"></div>
+            <div class="toggle" onclick="toggleMenu();"><i class="las la-bars la-3x"></i></div>
             <div class="search">
                 <label for="search">
                     <input type="text" name="search" id="search" placeholder="Rechercher ...">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="las la-search la-1x"></i>
                 </label>
             </div>
             <div class="user">
@@ -95,7 +97,7 @@ setcookie('user',$_SESSION['prenom']);
                 <div class="cardName">Etudiants</div>
             </div>
             <div class="iconBox">
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <i class="las la-users"></i>
             </div>
         </div>
         <div class="card">
@@ -104,7 +106,7 @@ setcookie('user',$_SESSION['prenom']);
                 <div class="cardName">Niveau</div>
             </div>
             <div class="iconBox">
-                <i class="fa fa-level" aria-hidden="true"></i>
+                <i class="las la-shoe-prints"></i>
             </div>
         </div>
         <div class="card">
@@ -113,7 +115,7 @@ setcookie('user',$_SESSION['prenom']);
                 <div class="cardName">En ligne</div>
             </div>
             <div class="iconBox">
-                <i class="fa fa-online" aria-hidden="true"></i>
+                <i class="las la-globe"></i>
             </div>
         </div>
         <div class="card">
@@ -122,7 +124,7 @@ setcookie('user',$_SESSION['prenom']);
                 <div class="cardName">Parcours-type</div>
             </div>
             <div class="iconBox">
-                <i class="fa fa-type" aria-hidden="true"></i>
+                <i class="las la-university"></i>
             </div>
         </div>
     </div>
@@ -185,16 +187,7 @@ setcookie('user',$_SESSION['prenom']);
 
 </div>
 
-<script>
-    function toggleMenu(){
-        let toggle=document.querySelector('.toggle');
-        let nav=document.querySelector('.nav');
-        let main=document.querySelector('.main');
-        toggle.classList.toggle('active');
-        nav.classList.toggle('active');
-        main.classList.toggle('active');
-    }
-</script>
+<script src="./etudiant.js"></script>
    <!-- <header>
         <div class="toggle_btn">
             <span></span>
