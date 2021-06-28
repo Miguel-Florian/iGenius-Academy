@@ -87,6 +87,7 @@ setcookie('user',$_SESSION['prenom']);
                 </label>
             </div>
             <div class="user">
+                <h5>Bienvenue <?php echo($_SESSION['nom']." ".$_SESSION['prenom']); ?></h4>
                 <img src="../images/user.jpg" alt="" width="40px" height="40px" />
             </div>
     </div>
