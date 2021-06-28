@@ -199,15 +199,11 @@ body{
     text-align:center;
     line-height:60px;
 }
-.user{
-    position: relative;
-    margin-right: 1em;
-    
-}
 .user img{
     position: relative;
     border:0px solid black;
     border-radius: 50%;
+    float:right ;
 }
 .search{
    position:relative;
