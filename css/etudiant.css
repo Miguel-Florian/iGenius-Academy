@@ -161,6 +161,9 @@ body{
     line-height:60px;
     white-space:nowrap
 }
+.nav ul li a.active{
+    background-color: #f11010;
+}
 .main{
     position:absolute;
     width:calc(100% - 300px);
