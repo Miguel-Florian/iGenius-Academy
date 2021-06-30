@@ -24,19 +24,53 @@ setcookie('user',$_SESSION['prenom']);
 <div class="main">
     <?php include "../includes/TopBar.php"?>
     <?php include "../includes/CardBox.php"?>
-    <div class="informations">
-        
-    </div>
+    <div class="informations"></div>
 
 </div>
 
 <script src="./etudiant.js"></script>
 <script>
-$("#dashboard").click(function(e){
-  $(".informations").load("../includes/content.php");
-  let dash = document.querySelector("#dashboard");
-  dash.classList.add("active")
-})
+    $("#dashboard").click(function(e){
+        $(".informations").load("../includes/content.php");
+        let dash = document.querySelector("#dashboard");
+        dash.classList.add("active")
+    })
+    $("#requete").click(function(e){
+        $(".informations").load("../includes/requete.php");
+        let req = document.querySelector("#requete");
+        req.classList.add("active")
+    })
+    $("#notes").click(function(e){
+        $(".informations").load("../includes/note.php");
+        let note = document.querySelector("#notes");
+        note.classList.add("active")
+    })
+    $("#cours").click(function(e){
+        $(".informations").load("../includes/cour.php");
+        let cour = document.querySelector("#cours");
+        cour.classList.add("active")
+    })
+    $("#inscription").click(function(e){
+        $(".informations").load("../includes/ins-aca.php");
+        let ins = document.querySelector("#inscription");
+        ins.classList.add("active")
+    })
+    $("#message").click(function(e){
+        $(".informations").load("../includes/communique.php");
+        let message = document.querySelector("#message");
+        message.classList.add("active")
+    })
+    $("#help").click(function(e){
+        $(".informations").load("../includes/help.php");
+        let help = document.querySelector("#help");
+        help.classList.add("active")
+    })
+    $("#lock").click(function(e){
+        $(".informations").load("../includes/logout.php");
+        let lock = document.querySelector("#lock");
+        lock.classList.add("active")
+    })
+   
 </script>
 </body>
 </html>
