@@ -1,5 +1,5 @@
 <div class="nav">
-        <ul>
+        <ul role="link">
             <li>
                 <a href="../index.php">
                     <span class="icon"><img src="../images/iGenius-50.png" alt=""></span>
