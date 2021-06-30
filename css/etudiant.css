@@ -263,7 +263,7 @@ body{
     font-size:2.5em;
     color:#03a9F4;
 }
-.informations{
+.informations .content{
     gap:1em;
     margin:0.4em;
     padding: 1em;
@@ -306,4 +306,38 @@ tbody .color{
 }
 table tr td{
     padding:1em;
+}
+/*-----------log out -------------*/
+.card-off{
+    margin: 0 auto; 
+    width: 24em;
+    height: 12em;
+    border:0px solid black;
+    background-color: #fff3cd;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #856404;
+}
+.card-off .alert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid gray;
+}
+.card-off .alert i{
+    color: #e08f15;
+}
+.card-off .deep-message{
+    margin-top:2em;
+}
+.button-response .response{
+    margin-top: 2em;
+    width: 8em;
+    height: auto;
+    cursor: pointer;
 }
