@@ -12,5 +12,3 @@ function toggleMenu(){
         nav.classList.toggle('active');
         main.classList.toggle('active');
     }
-  
-
