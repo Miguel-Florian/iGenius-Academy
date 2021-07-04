@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" id="dashboard">
+                <a href="#" id="dashboard" class="active">
                     <span class="icon"><i class="las la-home"></i></span>
                     <span class="title">Dashboard</span>
                 </a>
