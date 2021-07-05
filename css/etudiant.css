@@ -289,13 +289,13 @@ body{
     font-weight: bold;
     font-size: 17px;
 }
-.timetable table{
+.timetable .table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 2em;
     padding: 1em;
 }
-.timetable table thead td{
+.timetable .table thead td{
    font-weight: 600; 
 }
 table tr{
@@ -341,4 +341,77 @@ table tr td{
     width: 8em;
     height: auto;
     cursor: pointer;
+}
+/*-------- help, communiqué --------*/
+.card-help{
+   border:0px solid black;
+   width: 64em;
+   height: auto;
+   padding: 0.4em; 
+   margin: 0 auto;
+   background-color: #fff3cd;
+   color: #856404;
+   border-radius: 10px;
+}
+.help-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+.help-title h3{
+    text-align: center;
+    color: black;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em;
+    gap: 0.4em;
+}
+/*-------- inscription académique ------*/
+.card-sign{
+    gap:1em;
+    margin:0.4em;
+    padding: 1em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+}
+.signup{
+    background-color: #fff;
+    padding:1.2em;
+    border-radius:8px;
+    width: 100%;
+}
+.signup h3{
+    text-align: center;
+}
+.input-group{
+    margin-top: 3.6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+.input-group input[type="submit"]{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 0 auto;
+    width: 8em;
+    height: 2em;
+    justify-content: center;
+    cursor: pointer;
+}
+.element{
+   background-color: #fff;
+    padding: 0.6em;
+    border-radius:8px;
+    width: 30em 
+}
+.element .table-element{
+    width: 100%;
 }
