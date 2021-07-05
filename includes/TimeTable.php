@@ -1,6 +1,6 @@
 <div class="timetable">
             <div class="title-info"><h3>Empoi de temps</h3></div>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
                         <td>Jour</td>
